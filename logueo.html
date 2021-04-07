@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.C Bicentenario</title>
+    <link rel="stylesheet" href="CSS3/reset.css">
+    <link rel="stylesheet" href="CSS3/estilos.css">
+    <script src="Js/animacion.js"></script>
+    <link rel="shortcut icon" href="IMAGENES/icono.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div>  
+        <header class="cabecera1">
+            <figure>
+                <img class="imago4" src="IMAGENES/icono.png" alt="">
+            </figure>
+            <h1 class="cabecera2">
+                Consejo Comunal Bicentenario
+            </h1>
+        </header>
+    <!--    <nav class="navbar navbar-dark bg-primary" >
+            <a class="navbar-brand" href="practica 1.html">Consejo Comunal Bicentenario</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./informativo.html">Muro Informativo <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./registro.html">Registro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Consejo Comunal Bicentenario</a>
+                </li>
+              </ul>
+            </div>
+          </nav>-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="practica 1.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="boletin.html">Boletin Informativo</a>
+                </li>
+                <li>
+                    <a href="registro.html" onclick="descripcion()">Registro</a>
+                </li>
+                <!--<li>
+                    <a class="" href="#" >Contactanos</a>
+                </li>-->
+                <li>
+                    <a class="regi2" href="contacto.html">Quienes Somos</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="error">
+            <span>Datos de ingreso no validos, intentelo nuevamente</span>
+        </div>
+        <div class="container2">
+            <form action="logueo.php" method="post" name="logueo" id="logueo" autocomplete="off">
+                 <table>
+                    <tr>
+                        <td>
+                            <input type="text" name="usuario" id="user" placeholder="Usuario" minlength="8" maxlength="14" required>
+                        </td>
+                    </tr>
+                        <td>
+                            <input type="password" name="contraseña" id="pass" placeholder="Contraseña" minlength="8" maxlength="14" required>
+                        </td>
+                    <tr>
+                        <td>
+                             <input type="submit" class="enviar" name="enviar" id="send" value="Enviar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                             <input type="reset" name="limpiar" id="clear" value="Limpiar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+            
+        
+        <footer class="piedepagina">
+            <li>
+                Copyright 2020
+            </li>
+            <li>
+                Tachira, Venezuela 5001
+            </li>
+            <li>
+                dilsonjoan16@gmail.com
+            </li>
+            <li>
+                <i>
+                    telefono: +58 0424 7769707
+                </i>
+            </li>
+        </footer>
+    </div> 
+</body>
+</html>
